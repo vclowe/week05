@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img {
+    width: 100%
+}
+
+@media screen and (max-width: 800px) {
+    div {
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 800px) {
+    div {
+        width: 50%;
+    }
+}
